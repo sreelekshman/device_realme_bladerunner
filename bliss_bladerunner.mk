@@ -24,16 +24,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit some common BlissROMs stuff
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
-BLISS_BUILDTYPE=OFFICIAL
-BLISS_BUILD_VARIANT=gapps
-
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_PIXEL_CHARGER := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
-# UDFPS Animations
-EXTRA_UDFPS_ANIMATIONS := true
+BLISS_BUILDTYPE=OFFICIAL
 
 PRODUCT_NAME := bliss_bladerunner
 PRODUCT_DEVICE := bladerunner
