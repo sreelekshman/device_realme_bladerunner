@@ -59,7 +59,7 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResTarget
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-bliss
+    $(LOCAL_PATH)/overlay-apollo
     
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

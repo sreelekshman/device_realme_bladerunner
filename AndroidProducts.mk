@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_bladerunner.mk
+    $(LOCAL_DIR)/apollo_bladerunner.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_bladerunner-user \
-    bliss_bladerunner-userdebug \
-    bliss_bladerunner-eng
+    apollo_bladerunner-user \
+    apollo_bladerunner-userdebug \
+    apollo_bladerunner-eng
